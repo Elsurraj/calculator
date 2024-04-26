@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+}
+#mainbody{
+    margin-left: 40%;
+    margin-top: 14px;
+    background: linear-gradient(lawngreen,lime);
+    width: 250px;
+    height: 390px;
+    border: solid 8px;
+    border-radius: 12px;
+    border-color: lime;
+    
+}
+
+#screen{
+    border-width: 5px;
+    margin-left: 18px;
+    width: 85%;
+    height: 41px;
+    margin-top: 13px;
+    border-color:yellow;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    pointer-events: none;
+    box-shadow: inset -5px -5px 12px white,
+    inset 5px 5px 12px white;
+}
+.but{
+    width: 248px;
+    height: 325px;
+    margin-left: 1px;
+    background: #7cfc00;
+    
+}
+button{
+    width: 37px;
+    height: 42px;
+    margin-top: 16px;
+    background: linear-gradient(chartreuse,orange);
+    margin-left: 16px;
+    border: solid yellow;
+    border-radius: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(white, deeppink,red);
+}
